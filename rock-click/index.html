@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rock Click Home Page</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-indigo.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <style>
+    .rockclick__header, body {
+      background: #000;
+    }
+
+    .rockclick__header {
+      box-shadow: 0 5px 5px 0 rgba(255,0,0,5),0 3px 1px -2px rgba(255,0,0,.2),0 1px 5px 0 rgba(255,0,0,.12);
+    }
+
+    .rockclick__content {
+      color: #fff;
+      opacity: .87;
+      padding: 80px 0;
+      max-width: 1044px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .rockclick__model {
+      text-align: center;
+    }
+
+    .rockclick__model-header {
+      text-align: left;
+    }
+
+    .rockclick-img {
+      width: 320px;
+      height: 528px;      
+    }
+  </style>
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header rockclick__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">
+          <img src="img/Global/WebAppIcon.png" alt="Webappicon" width="50" height="50" />
+        </span>      
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a id="app" class="mdl-navigation__link" href="#">Rock Click APP<i class="material-icons" role="presentation">arrow_drop_down</i></a>
+          <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu" for="app">
+            <li class="mdl-menu__item"><a href="">軟體介紹</a></li>
+            <li class="mdl-menu__item"><a href="">使用說明</a></li>            
+            <li class="mdl-menu__item"><a href="">Github</a></li>
+          </ul>
+          <a class="mdl-navigation__link" href="#">網路鼓機</a>
+          <a class="mdl-navigation__link" href="#">關於我</a>
+        </nav>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a id="lang" class="mdl-navigation__link" href="#">language 語言<i class="material-icons" role="presentation">arrow_drop_down</i></a>
+          <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu" for="lang">
+            <li class="mdl-menu__item"><a href="">English</a></li>
+            <li class="mdl-menu__item"><a href="">繁體中文</a></li>            
+            <li class="mdl-menu__item"><a href="">简体中文</a></li>
+            <li class="mdl-menu__item"><a href="">日本語</a></li>
+          </ul>
+          <a class="mdl-navigation__link" href="#">註冊</a>
+          <a class="mdl-navigation__link" href="#">登入</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Title</span>
+      <ul role="menubar">
+        <li><a role="menuitem" href="#">Rock Click APP<i class="material-icons" role="presentation">arrow_drop_down</i></a></li>    
+      </ul>
+      <nav class="mdl-navigation">      
+        <a class="mdl-navigation__link" href="#">Rock Click APP<i class="material-icons" role="presentation">arrow_drop_down</i></a>
+        <a class="mdl-navigation__link" href="#">網路鼓機</a>
+        <a class="mdl-navigation__link" href="#">關於我</a>
+        <a class="mdl-navigation__link" href="#">language 語言<i class="material-icons" role="presentation">arrow_drop_down</i></a>
+        <a class="mdl-navigation__link" href="#">註冊</a>
+        <a class="mdl-navigation__link" href="#">登入</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="rockclick__content">
+       <p class="mdl-typography--display-1">“Rock Click” 一款由搖滾樂"鼓手"設計製作於iPhone App應用程式上的節拍器軟體，除了一般標準鼓手節拍器的功能外，更添加了自動依序撥放節拍的功能。只要在節拍列表中增加與設定次數及其它相關參數，便可開始依序執行及播放。</p>
+       <p class="mdl-typography--display-1">此外，為了方便綀習歌曲，此軟體更加入了歌曲與節拍同步撥放功能，只要選定歌曲及設定好節拍細節，便可達到如一般專業錄音軟體的合併播放功能。</p>
+       <p class="mdl-typography--display-1">同時，此軟體也具備了音樂減半速度播放及好用的AB播放功能，如此貼心又方便的設計，讓樂手在綀習歌曲的同時也能輕易的解析細節。</p>
+
+       <div class="rockclick__model">
+        <div class="mdl-typography--display-1 rockclick__model-header">Iphone 6 / Iphone 6 plus/ Iphone 5S / Iphone 5 "主頁面"</div>
+        <img src="img/5S/NormalPage_5S.png" class="rockclick-img" />
+        <img src="img/5S/BPMPicker_5S.png" class="rockclick-img" />
+       </div>
+     </div>
+   </main>
+ </div>
+</body>
+</html>
